@@ -5,16 +5,19 @@ import Info from './components/Info/Info';
 import Communes from './components/Communes/Communes';
 import Footer from './components/Footer/Footer';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import DashBord from './components/DashBord/DashBord';
 
 function App() {
   return (
     <div>
-      <Header/>
+      {/* <Header/>
       <Filter/>
       <Info/>
       <Etapes/>
       <Communes/>
-      <Footer/>
+      <Footer/> */}
+
+      <DashBord/>
     </div>
   );
 }
