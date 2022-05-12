@@ -207,6 +207,111 @@ hr{
   border: none;
 }
 
+/* Communes*/
+.body-5{
+  background-color: #F6F6F6;
+  height: 35rem;
+
+}
+.body-5 h1{
+  width: 43rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 22rem;
+  margin-right: 13rem;
+  font: normal normal 900 25px/35px Maax;
+}
+.body-5 h2{
+  text-transform: uppercase;
+  text-align: center;
+  color: #165b04;
+  font: normal normal 900 25px/35px Maax
+}
+.nb-commune{
+  color: #cfde1d;
+}
+.communes{
+  width: 80rem;
+  margin-left: 20rem;
+  margin-right: 30rem;
+  margin-bottom: 5rem;
+
+}
+.commune-1{
+  top: 342.3rem;
+  border: none;
+  width: 10rem;
+  height: 2.5rem;
+  margin-right: 5px;
+  display: inline-flex;
+  justify-content: center;
+  text-transform: uppercase;
+  background-color: #FFFFFF;
+  color: #165b04;
+  border-left: 5px solid #165b04;  
+}
+.partenariat{
+  background-color: #FFFFFF;
+  width: 54rem;
+  height: 12rem;
+  margin-left: 20rem;
+  margin-right: 12rem;
+  
+}
+
+/*footer*/
+footer{
+  background-color: #1c8200;
+  color: #FFFFFF;
+  height: 8rem;
+}
+footer #p1{
+  color: #FFFFFF;
+  margin-left: 1.8rem;
+  font: normal normal bold 18px /27px Maax;
+}
+footer #p2{
+  float: right;
+  margin-right: 3rem;
+  margin-top: 0rem;
+  font: normal normal bold 18px /27px Maax;
+}
+.texte{
+  display: inline-flex;
+}
+.para-1{
+  width: 17rem;
+  margin-right: 22rem;
+  margin-left: 1.8rem;
+  color: #fbfbfb;
+  font: normal normal normal 12px/13px Maax;
+}
+.para-2{
+  width: 8rem;
+  justify-content: center;
+  font: normal normal medium 18px /27px Maax;
+}
+.images{
+  width: 30px;
+  display: inline-flex;
+  float: right;
+  padding-right: 0px;
+  margin-top: 2rem;
+  
+}
+
+.images img{
+  width: 30px;
+  border-radius: 52px/50px;
+  margin: 7px;
+}
+#numero{
+  font: normal normal  medium 30px/33px Maax;
+  margin-left: 1.8rem;
+  margin-top: 0rem;
+}
+
+
 
 
 
