@@ -1,0 +1,11 @@
+.Formulaire{
+    width: 37rem;
+    border: 2px solid #708090;
+    box-shadow:  1px 1px 2px #708090;
+    border-radius: 7px;
+    padding: 2rem;
+    margin-top: 20rem;
+    margin-left: 35rem;
+    margin-right: 30rem;
+    margin-bottom: 10rem;
+}

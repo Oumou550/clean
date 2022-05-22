@@ -1,0 +1,53 @@
+.formulaire{
+    width: 37rem;
+    border: 2px solid #708090;
+    box-shadow:  1px 1px 2px #708090;
+    border-radius: 7px;
+    padding: 2rem;
+    margin-top: 6rem;
+    margin-left: 35rem;
+    margin-right: 30rem;
+}
+
+.button-inscription {
+    width: 32rem;
+    margin-left: 0.5rem;
+    font-weight: bold;
+}
+
+.form-group{
+    width: 32rem;
+    margin-left: 0.5rem;
+}
+input{
+    border: 2px solid #708090;;
+}
+
+.titre-inscription{
+color: #1c8200;
+font-size: 2rem;
+margin-left: 0.5rem;
+}
+label{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.form-text{
+    font-size: 1rem;
+}
+.titre2-inscription{
+    font-size: 1.3rem;
+    color: #1c8200;
+    font-weight: bold;
+    margin-left: 0.5rem;
+
+}
+.button2-inscription {
+    width: 32rem;
+    margin-left: 0.5rem;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #708090;
+    border: none;
+}

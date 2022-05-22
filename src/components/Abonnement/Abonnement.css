@@ -1,0 +1,20 @@
+
+.titre-1{
+width: 107rem;
+height: 5rem;
+background-color: #160;
+color: white;
+text-align: center;
+margin-left: -13rem;
+}
+
+.bloc-image{
+    width: 40rem;
+    height: 100vh;
+    margin-top: -0.5rem;
+    margin-left: -13rem;
+}
+.bloc-image img{
+    width: 40rem;
+   
+}
