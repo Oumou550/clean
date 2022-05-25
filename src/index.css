@@ -1,67 +1,22 @@
-body {
-  margin: 0;
-  box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 .body-1 {
   display: inline-block;
   width: 100%;
   padding-left: 162px;
   /**/
-  margin-top: 410px;
+  /*margin-top: 30px;*/
   /*background: #FFFFFF 0% 0% no-repeat padding-box;*/
   background: #F6F6F6 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 .body-2, .body-3 {
-width: 60%;
-margin: 0 auto;
+  margin-top: 3rem;
+  margin-left: 20rem;
+  margin-right: 25rem;
+  width: 100%;
 }
-.body-4{
-  background-color:  #2C3A29;
-}
-.body-4 h1{
-  color: #E8F733;
-  text-transform: uppercase;
-  width: 17rem;
-  margin-top: 1rem;
-  font-style: normal;
-  font-size: 1.2rem;
-} 
-.body-4 h3{
-  color: #E8F733;
-  text-transform: uppercase;
-  font-weight: bolder;
-  font-style: italic;
-  text-align: center;
-  padding: 2rem 0rem 0rem 0rem;
-  font-size: 2rem;
 
-}
-.body-4 p{
-  color: white;
-  width: 20rem;
-}
-.body-4 .chiffre{
-  font: normal normal bold 46px/51px Maax;
-  letter-spacing: 0px;
-  color: #E8F733;
-  border: 1px  #E8F733 solid;
-  border-radius: 5px;
-  box-shadow: 0px 0px 0px #E8F733 inset;
-  margin-bottom: 0px;
-  width: 55px;
-  text-align: center;
-}
+
+
   /* Les h */
 h1 {
   color: #165b04;
@@ -73,7 +28,8 @@ h3 {
 /* Sections */
 
 .article-1, .aside-1 {
-
+  height: 30rem;
+  padding-top: 5rem;
   display: inline-block;
 }
 
@@ -85,18 +41,6 @@ h3 {
   display: inline-block;
 }
 
-.article-etape-1, .aside-etape-1{
-  display: inline-block;
-}
-.article-etape-2, .aside-etape-2{
-  display: inline-block;
-}
-.article-etape-3, .aside-etape-3{
-  display: inline-block;
-}
-.etape-1, .etape-2, .etape-3{
-  margin-left: 25rem;
-}
 
 
 /* Articles */
@@ -106,6 +50,7 @@ h3 {
 }
 
 .article-2 {
+  /* margin-top: 3rem; */
   margin-left: 20px;
 }
 
@@ -113,12 +58,15 @@ h3 {
   margin-left: 20px;
 }
 .article-1 p {
+  margin-left: 1rem;
   width: 25.5rem;
 }
 .article-2 p, .article-3 p{
   width: 25.5em;
+  margin-left: 1.5rem;
   margin-bottom: 5px;
 }
+
 .article-2 h1, .article-3 h1 {
   text-transform: uppercase;
   margin-left: 21px;
@@ -141,15 +89,11 @@ hr{
   float: right;
   border: 1px solid #1C8200;
 }
-.article-etape-2{
-  margin-left: 2rem;
-}
+
 
   /* Asides */
 .aside-1 {
   width: 17rem;
-  border: 1px #1C8200 solid;
-  border-radius: 52px;
   height: 17rem;
   opacity: 1;
 }
@@ -158,8 +102,9 @@ hr{
   width: 15rem;
   border: 1px #1C8200 solid;
   margin-left: 10px;
-  border-spacing: 10px;
+ border-spacing: 10px;
   border-radius: 52px;
+  margin-bottom: 20rem;
   height: 15rem;
   opacity: 1;
 }
@@ -168,8 +113,9 @@ hr{
   width: 20rem;
   border: 1px #1C8200 solid;
   margin-left: 10px;
+  margin-top: -13.5rem ;
   border-spacing: 10px;
-  height: 16.2rem;
+  height: 18.2rem;
   border: none;
   opacity: 1;
 }
@@ -180,10 +126,6 @@ hr{
 .aside-3 img { 
   border-bottom-left-radius: 52px;
 }
-.aside-etape-1 img, .aside-etape-3 img {
-  margin-left: 27px;
-}
-
 
   /* Les boutons */
 .button-1 {
@@ -191,17 +133,18 @@ hr{
       color: white;
       border: none;
       border-radius: 5px;
-
+      margin-left: 1rem;
       padding: 7px 10px 7px 8px;
 }
 .button-2, .button-3 {
   background-color: #1c8200;
-  color: white;
+  color: #fbfbfb;
   border-radius: 5px;
   /*top: 62.8rem;*/
   margin-top: 1px;
+  margin-left: 1.5rem;
   left: 87.25rem;
-  width: 5rem;
+  width: 6rem;
   height: 2rem;
   opacity: 1;
   border: none;
@@ -226,6 +169,7 @@ hr{
   text-align: center;
   color: #165b04;
   font: normal normal 900 25px/35px Maax
+  
 }
 .nb-commune{
   color: #cfde1d;
@@ -235,10 +179,8 @@ hr{
   margin-left: 20rem;
   margin-right: 30rem;
   margin-bottom: 5rem;
-
 }
 .commune-1{
-  top: 342.3rem;
   border: none;
   width: 10rem;
   height: 2.5rem;
@@ -264,17 +206,18 @@ footer{
   background-color: #1c8200;
   color: #FFFFFF;
   height: 8rem;
+  margin-top: -1rem;
 }
-footer #p1{
+footer .p1{
   color: #FFFFFF;
   margin-left: 1.8rem;
-  font: normal normal bold 18px /27px Maax;
+  font: normal normal bold 14px /27px Maax;
 }
-footer #p2{
+footer .p2{
   float: right;
-  margin-right: 3rem;
+  padding-right: 4rem;
   margin-top: 0rem;
-  font: normal normal bold 18px /27px Maax;
+  font: normal normal bold 14px /27px Maax;
 }
 .texte{
   display: inline-flex;
@@ -284,18 +227,19 @@ footer #p2{
   margin-right: 22rem;
   margin-left: 1.8rem;
   color: #fbfbfb;
-  font: normal normal normal 12px/13px Maax;
+  font: normal normal normal 12px/12px Maax;
 }
 .para-2{
   width: 8rem;
   justify-content: center;
-  font: normal normal medium 18px /27px Maax;
+  font: normal normal medium 12px /27px Maax;
 }
 .images{
   width: 30px;
   display: inline-flex;
   float: right;
-  padding-right: 0px;
+  padding-left: 15.3rem;
+  /* padding-right: 0px; */
   margin-top: 2rem;
   
 }
@@ -305,8 +249,8 @@ footer #p2{
   border-radius: 52px/50px;
   margin: 7px;
 }
-#numero{
-  font: normal normal  medium 30px/33px Maax;
+.numero{
+  font: normal normal  medium 10px/35px Maax;
   margin-left: 1.8rem;
   margin-top: 0rem;
 }
@@ -315,10 +259,12 @@ footer #p2{
 
 
 
-
 /* Correction*/
-
-
+body{
+  margin: 0;
+  box-sizing: border-box;
+  
+}
 header{
   background-color: yellowgreen;
   width: 100%;
@@ -344,9 +290,15 @@ header{
   align-items: center;
 }
 .menu{
-  float: right;
-  display: inline-block;
-  width: 700px;
+  color: white;
+  width: 100%;
+  height: 100vh;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #FFFFFF;
+  padding-left: 20px;
 }
 
 header h1{
@@ -374,17 +326,14 @@ h2{
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #0000000F;
   opacity: 1;
-  justify-content: center;
   width: 52rem;
   height: 10rem;
   top: 55.7rem;
   left: 18.25rem;
-  margin: 6.25rem ;
-  margin-top: 1rem;
+  margin-top: -5rem;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-  z-index: 1;
 }
 .custom-select{
   border: 1px solid powderblue;
@@ -417,29 +366,7 @@ h2{
   font-size: 1.5rem;
 }
 
-nav ul{
-  list-style-type: none;
-}
-nav li{
-  display: inline-flex;
-  margin-right: 15px;
-}
-nav a {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: Dayrom, serif;
-  font-size: 1.3em;
-  color: #FFFFFF;
-}
-nav a:hover{
-  color: #760001;
- /* border-bottom: 3px #760001 solid; */
-}
-.sous-liste{
-  position: relative;
-  top: -2px;
-  display: none;
-}
+
 .items-sous-liste{
   list-style-type: none;
   text-align: center;

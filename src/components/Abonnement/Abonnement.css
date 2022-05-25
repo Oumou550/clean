@@ -1,11 +1,16 @@
 
-.titre-1{
-width: 107rem;
-height: 5rem;
-background-color: #160;
-color: white;
-text-align: center;
-margin-left: -13rem;
+.abonnement-titre{
+    text-transform: uppercase;
+    width: 42rem;
+    margin-left: 32rem;
+    text-align: center;
+    align-items: center;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+}
+.abonnement-tarif{
+    font-style: normal;
+    font-weight: 350;
 }
 
 .bloc-image{

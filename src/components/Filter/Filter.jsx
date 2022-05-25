@@ -3,6 +3,7 @@ import React from 'react'
 export default function Filter() {
   return (
     <div className="input-0">
+      
     <h2>Trouvez la PME la plus proche de vous</h2>
         <div className="input-1">
             <label for="pays">Votre commune</label><br />

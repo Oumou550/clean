@@ -21,10 +21,15 @@ export default function PmeRamassage() {
               <img src={image1}/>
           </article>
           <aside>
-              <p>
-                  Bienvenu(e) sur la pme de sonfonia. Nous vous offrons nos prestations de service mensuels et journalier.
-              </p>
-              <button className="">Voir plus</button>
+              <div className='pme-info d-inline-flex'>
+              <h2 className='pme-nom'>SODIA PLAST</h2>
+              <h2 className="pme-commune">Dixinn</h2>
+              </div>
+
+              <h2 className='activite'>Recyclage</h2>
+
+              
+              <button className="">Plus de details</button>
           </aside>
       </section>
       <section className="contenu-1-pme-2">
@@ -32,8 +37,15 @@ export default function PmeRamassage() {
             <img src={image2} />
         </article>
         <aside>
-            <p>Bienvenu(e) sur la pme de sonfonia. Nous vous offrons nos prestations de service mensuels et journalier.</p>
-            <button className="">Voir plus</button>
+        <div className='pme-info d-inline-flex'>
+              <h2 className='pme-nom'>SODIA PLAST</h2>
+              <h2 className="pme-commune">Dixinn</h2>
+              </div>
+
+              <h2 className='activite'>Recyclage</h2>
+
+              
+              <button className="">Plus de details</button>
         </aside>
       </section>
       <section className="contenu-1-pme-3">
@@ -41,10 +53,15 @@ export default function PmeRamassage() {
             <img src={image3} />
         </article>
         <aside>
-            <p>
-                Bienvenu(e) sur la pme de sonfonia. Nous vous offrons nos prestations de service mensuels et journalier.
-            </p>
-            <button className="">Voir plus</button>
+        <div className='pme-info d-inline-flex'>
+              <h2 className='pme-nom'>SODIA PLAST</h2>
+              <h2 className="pme-commune">Dixinn</h2>
+              </div>
+
+              <h2 className='activite'>Recyclage</h2>
+
+              
+              <button className="">Plus de details</button>
         </aside>
     </section>
     <section className="contenu-1-pme-4">
@@ -52,8 +69,15 @@ export default function PmeRamassage() {
           <img src={image4} />
       </article>
       <aside>
-          <p>Bienvenu(e) sur la pme de sonfonia. Nous vous offrons nos prestations de service mensuels et journalier.</p>
-          <button className="">Voir plus</button>
+      <div className='pme-info d-inline-flex'>
+              <h2 className='pme-nom'>SODIA PLAST</h2>
+              <h2 className="pme-commune">Dixinn</h2>
+              </div>
+
+              <h2 className='activite'>Recyclage</h2>
+
+              
+              <button className="">Plus de details</button>
       </aside>
     </section>
     
@@ -64,10 +88,12 @@ export default function PmeRamassage() {
                 <img src={image5} />
             </article>
             <aside>
-                <p>
-                    Bienvenu(e) sur la pme de sonfonia. Nous vous offrons nos prestations de service mensuels et journalier.
-                </p>
-                <button className="">Voir plus</button>
+            <div className='pme-info d-inline-flex'>
+              <h2 className='pme-nom'>SODIA PLAST</h2>
+              <h2 className="pme-commune">Dixinn</h2>
+              </div>
+              <h2 className='activite'>Recyclage</h2>
+              <button className="">Plus de details</button>
             </aside>
         </section>
         <section className="contenu-2-pme-2">
@@ -75,8 +101,12 @@ export default function PmeRamassage() {
               <img src={image6} />
           </article>
           <aside>
-              <p>Bienvenu(e) sur la pme de sonfonia. Nous vous offrons nos prestations de service mensuels et journalier.</p>
-              <button className="">Voir plus</button>
+          <div className='pme-info d-inline-flex'>
+              <h2 className='pme-nom'>SODIA PLAST</h2>
+              <h2 className="pme-commune">Dixinn</h2>
+              </div>
+              <h2 className='activite'>Recyclage</h2>
+              <button className="">Plus de details</button>
           </aside>
         </section>
         <section className="contenu-2-pme-3">
@@ -84,10 +114,12 @@ export default function PmeRamassage() {
               <img src={image7} />
           </article>
           <aside>
-              <p>
-                  Bienvenu(e) sur la pme de sonfonia. Nous vous offrons nos prestations de service mensuels et journalier.
-              </p>
-              <button className="">Voir plus</button>
+          <div className='pme-info d-inline-flex'>
+              <h2 className='pme-nom'>SODIA PLAST</h2>
+              <h2 className="pme-commune">Dixinn</h2>
+              </div>
+              <h2 className='activite'>Recyclage</h2>
+              <button className="">Plus de details</button>
           </aside>
       </section>
       <section className="contenu-2-pme-4">
@@ -95,10 +127,12 @@ export default function PmeRamassage() {
             <img src={image1} />
         </article>
         <aside>
-            <p className='pl-2'>
-                Bienvenu(e) sur la pme de sonfonia. Nous vous offrons nos prestations de service mensuels et journalier.
-            </p>
-            <button className="">Voir plus</button>
+        <div className='pme-info d-inline-flex'>
+              <h2 className='pme-nom'>SODIA PLAST</h2>
+              <h2 className="pme-commune">Dixinn</h2>
+              </div>
+              <h2 className='activite'>Recyclage</h2>
+              <button className="">Plus de details</button>
         </aside>
       </section>
       </div>

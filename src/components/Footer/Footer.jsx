@@ -6,11 +6,11 @@ export default function Footer() {
   return (
 <footer>
         <div>
-            <p id="p1">Adresse</p>
-            <p id="p2">Retrouvez-nous</p>
+            <p className='p1'>Adresse</p>
+            <p className='p2'>Retrouvez-nous</p>
             <Texte/>
             <Images/>
-            <p id="numero">Tel: 624893223/621410646</p>
+            <p className="numero">Tel: 624893223/621410646</p>
         </div>
     </footer>
   )

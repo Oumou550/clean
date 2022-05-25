@@ -1,0 +1,60 @@
+.modale-conteneur{
+    /* min-width: 50vh; */
+    width: 45%;
+    min-height: 50vh;
+    background-color: #ffffff;
+    margin-bottom: 5rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+.sous-modale{
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+.titre-modale{
+    text-transform: uppercase;
+    width: 100% ;
+    color: #ffffff;
+    background-color: #165b04;
+    padding-left: 1rem;
+}
+.modale-image img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100%;
+}
+.modale-texte{
+    margin-left: 3rem;
+}
+.modale-texte h1{
+    text-transform: uppercase;
+    
+}
+.modale-texte h2{
+    background-color: #CFDE1D;
+    color: #ffffff;
+    width: 7rem;
+    height: 1.7rem;
+    font-size: 1.3rem;
+    
+}
+.modale-texte p{
+    color: #165b04;
+    margin: 2px;
+    font-size: 1.4rem;
+
+}
+.modale-texte span{
+    color: #165b04;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.modale-texte button{
+    background-color: #165b04;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    margin-left: 18rem;
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import './etapes.css'
 import Etape1 from './Etape1'
 import Etape2 from './Etape2'
 import Etape3 from './Etape3'

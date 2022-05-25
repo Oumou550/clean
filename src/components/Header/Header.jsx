@@ -1,37 +1,43 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+import Menu from './Menu'
+
+
+
 
 export default function Header() {
   return (
     <header>
-    <div class="header-1">
-     <nav>
-         <div class="nom">FENTEINGNY</div>
-         <div class="menu">
-             <ul>
-                 <li>
-                     <a href="#"><span class="fas fa-home"></span>Services</a>
-                     <ul class="sous-liste">
-                         <li class="items-sous-liste"><a href="#">Pour maison</a></li>
-                         <li class="items-sous-liste"><a href="#">Pour entreprises</a></li>
-                     </ul>
-                 </li>
-                 <li>
-                     <a href="contact.html">PME</a>
-                 </li>
-                 <li>
-                     <a href="inscription.html">Abonnement</a>
-                 </li>
-                 <li>
-                     <a href="propos.html"> Créer un compte</a>
-                 </li>
-             </ul>
-         </div>
-     </nav>
+    <div className="header-1">
+        <Menu/>
+    {/* //  <nav>
+    //      <div className="menu d-flex justify-content-around pt-3">
+    //      <div className="nom "><i>FENTEINGNY</i></div>
+    //          <ul style={{listStyle: 'none'}} className='d-flex justify-content-end h4 '>
+    //              <li>
+    //                  <Link to=""><span className="fas fa-home"></span>Services</Link>
+    //              </li>
+    //              <li>
+    //                  <Link to="/pme">PME</Link>
+    //              </li>
+
+    //              <li>
+    //                  <Link to="/abonnement">Abonnement</Link>
+    //              </li>
+
+    //              <li>
+    //                  <Link to="/compte">creer un compte</Link>
+    //              </li>
+    //          </ul>
+
+    //      </div>
+   
+     </nav> */}
     </div>
-    <div  class="cta__session">
-        <div class="cta__session--button">
+    <div  className="cta__session">
+        <div className="cta__session--button">
             <h1>La Gestion de vos déchets est notre Métier</h1>
-            <button class="abonnez-vous">Abonnez-vous à une PME</button>
+            <Link to='/dashbord' className="abonnez-vous">Abonnez-vous à une PME</Link>
          </div>
      </div>
  </header>

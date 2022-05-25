@@ -4,7 +4,7 @@ import image2 from './twitter.png'
 
 export default function Images() {
   return (
-    <div class="images">
+    <div className="images">
                 <div>
                     <img src={image} />
                 </div>

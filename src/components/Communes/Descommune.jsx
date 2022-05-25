@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Descommune() {
   return (
-    <div className="communes">
+    <div className="communes mt-4">
             <div className="commune-1">Dixin</div>
             <div className="commune-1">Kaloum</div>
             <div className="commune-1">Matam</div>
