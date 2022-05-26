@@ -26,10 +26,10 @@ export default function PmeRamassage() {
               <h2 className="pme-commune">Dixinn</h2>
               </div>
 
-              <h2 className='activite'>Recyclage</h2>
+              <h2 className='activite'>Nettoyage</h2>
 
               
-              <button className="">Plus de details</button>
+              <button className="" >Plus de details</button>
           </aside>
       </section>
       <section className="contenu-1-pme-2">
@@ -42,7 +42,7 @@ export default function PmeRamassage() {
               <h2 className="pme-commune">Dixinn</h2>
               </div>
 
-              <h2 className='activite'>Recyclage</h2>
+              <h2 className='activite'>Nettoyage</h2>
 
               
               <button className="">Plus de details</button>
@@ -58,7 +58,7 @@ export default function PmeRamassage() {
               <h2 className="pme-commune">Dixinn</h2>
               </div>
 
-              <h2 className='activite'>Recyclage</h2>
+              <h2 className='activite'>Nettoyage</h2>
 
               
               <button className="">Plus de details</button>
@@ -74,7 +74,7 @@ export default function PmeRamassage() {
               <h2 className="pme-commune">Dixinn</h2>
               </div>
 
-              <h2 className='activite'>Recyclage</h2>
+              <h2 className='activite'>Nettoyage</h2>
 
               
               <button className="">Plus de details</button>
@@ -92,7 +92,7 @@ export default function PmeRamassage() {
               <h2 className='pme-nom'>SODIA PLAST</h2>
               <h2 className="pme-commune">Dixinn</h2>
               </div>
-              <h2 className='activite'>Recyclage</h2>
+              <h2 className='activite'>Nettoyage</h2>
               <button className="">Plus de details</button>
             </aside>
         </section>
@@ -105,7 +105,7 @@ export default function PmeRamassage() {
               <h2 className='pme-nom'>SODIA PLAST</h2>
               <h2 className="pme-commune">Dixinn</h2>
               </div>
-              <h2 className='activite'>Recyclage</h2>
+              <h2 className='activite'>Nettoyage</h2>
               <button className="">Plus de details</button>
           </aside>
         </section>
@@ -118,7 +118,7 @@ export default function PmeRamassage() {
               <h2 className='pme-nom'>SODIA PLAST</h2>
               <h2 className="pme-commune">Dixinn</h2>
               </div>
-              <h2 className='activite'>Recyclage</h2>
+              <h2 className='activite'>Nettoyage</h2>
               <button className="">Plus de details</button>
           </aside>
       </section>
@@ -131,7 +131,7 @@ export default function PmeRamassage() {
               <h2 className='pme-nom'>SODIA PLAST</h2>
               <h2 className="pme-commune">Dixinn</h2>
               </div>
-              <h2 className='activite'>Recyclage</h2>
+              <h2 className='activite'>Nettoyage</h2>
               <button className="">Plus de details</button>
         </aside>
       </section>

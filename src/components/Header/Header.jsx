@@ -7,9 +7,12 @@ import Menu from './Menu'
 
 export default function Header() {
   return (
+    <div>
+      <Menu/>
     <header>
-    <div className="header-1">
-        <Menu/>
+      
+    {/* <div className="header-1"> */}
+        
     {/* //  <nav>
     //      <div className="menu d-flex justify-content-around pt-3">
     //      <div className="nom "><i>FENTEINGNY</i></div>
@@ -33,7 +36,7 @@ export default function Header() {
     //      </div>
    
      </nav> */}
-    </div>
+    {/* </div> */}
     <div  className="cta__session">
         <div className="cta__session--button">
             <h1>La Gestion de vos déchets est notre Métier</h1>
@@ -41,5 +44,6 @@ export default function Header() {
          </div>
      </div>
  </header>
+ </div>
   )
 }
