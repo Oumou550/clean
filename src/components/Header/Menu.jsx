@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import './menu.css'
+import logo_dechet3 from './logo_dechet3.jpg'
 
 export default function Menu() {
   return (
@@ -10,7 +11,7 @@ export default function Menu() {
          <div className="nom">
             <ul style={{listStyle: 'none'}}>
                 <li>
-                     <Link to="/">FENTEINGNY</Link>
+                     <Link to="/"><img src={logo_dechet3}/>Fenteingny</Link>
                 </li>
             </ul>
         </div>
