@@ -14,7 +14,7 @@ export default function EntetePied() {
                                         <th>Salary</th>
                                      </tr>
                                  </thead>
-                                <tfoot>
+                                {/* <tfoot>
                                     <tr>
                                         <th>Name</th>
                                        <th>Position</th>
@@ -23,7 +23,7 @@ export default function EntetePied() {
                                          <th>Start date</th>
                                          <th>Salary</th>
                                      </tr>
-                     </tfoot>
+                     </tfoot> */}
                         </div>
   )
 }

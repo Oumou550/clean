@@ -1,5 +1,6 @@
 
 import React ,{useState} from 'react'
+import './Filter.css'
 
 export default function Filter() {
 
@@ -10,7 +11,7 @@ export default function Filter() {
       
     <h2>Trouvez la PME la plus proche de vous</h2>
         <div className="input-1">
-            <label for="pays">Votre commune</label><br />
+            <label for="pays">Votre commune</label>
 
                 <select onChange={(e)=> setToggle(e.target.value)}  className="custom-select " name="pays" id="pays">
                         <option className={toggle === "ratoma" ? btn : ''} value="ratoma">Ratoma</option>

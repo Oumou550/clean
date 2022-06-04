@@ -1,14 +1,14 @@
 import React from 'react'
-import Menu from '../Header/Menu'
+import Footer from '../Footer/Footer'
 import Connexion from './Connexion'
 import Inscription from './Inscription'
 
 export default function CreerUnCompte() {
   return (
     <div>
-          <Menu/>
           <Inscription/>
           <Connexion/>
+          <Footer/>
     </div>
   )
 }

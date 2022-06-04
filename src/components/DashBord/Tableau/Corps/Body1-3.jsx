@@ -4,7 +4,7 @@ export default function Body1() {
   return (
     <div>
         
-                                    <tr>
+                                    <tr >
                                         <td>Tiger Nixon</td>
                                         <td>System Architect</td>
                                         <td>Edinburgh</td>

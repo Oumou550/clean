@@ -1,5 +1,6 @@
 import React from 'react'
-
+import image from './fenteingny.png'
+import './info.css'
 export default function Fenteingny() {
   return (
     <section class="body-1">
@@ -13,7 +14,7 @@ export default function Fenteingny() {
             <button class="button-1">En savoir plus</button>
         </article>
         <aside class="aside-1">
-            <img src={process.env.PUBLIC_URL + 'images/agent-immobilier.jpg'} alt=""/>
+            <img src={image} alt=""/>
         </aside>
     </section> 
   )

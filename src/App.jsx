@@ -1,5 +1,4 @@
 import Info from './components/Info/Info';
-import Footer from './components/Footer/Footer';
 import Filter from './components/Filter/Filter';
 import Etapes from './components/Etapes/Etapes'
 import Communes from './components/Communes/Communes';
@@ -18,21 +17,26 @@ import Abonnement from './components/Abonnement/Abonnement';
 import CreerUnCompte from './components/CreerUnCompte/CreerUnCompte';
 import NotFound from './components/NotFound';
 import Menu from './components/Header/Menu';
+import Produits from './components/Pme/Produits/Produits';
+import Footer from './components/Footer/Footer';
+
 
 
 function App() {
   return (
     <BrowserRouter>
       {/* <Header/> */}
-      {/* <Menu/> */}
+      <Menu/>
         <Switch>
           <Route exact path='/'  component={Home}/>
           {/* <Route path="/dashbord" component={DashBord}/> */}
+          <Route path="/articles" component={Produits}/>
           <Route path="/pme" component={Pme}/>
           <Route path="/abonnement" component={Abonnement}/>
           <Route path="/compte" component={CreerUnCompte}/>
           <Route  component={NotFound}/>
          </Switch>
+         {/* <Footer/> */}
       </BrowserRouter>
   );
 }

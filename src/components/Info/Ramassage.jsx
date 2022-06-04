@@ -1,6 +1,5 @@
 import React from 'react'
-import agent from './agent-immobilier.jpg'
-
+import agent from './img-ramassage.png'
 export default function Ramassage() {
   return (
     <section className="body-2">

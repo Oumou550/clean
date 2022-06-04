@@ -2,10 +2,10 @@ import React from 'react'
 import './Abonnement.css'
 import {Link} from 'react-router-dom'
 import Menu from '../Header/Menu'
+import Footer from '../Footer/Footer'
 export default function Abonnement() {
   return (
     <div className='abonnement-conteneur'>
-        <Menu/>
         <hr />
        
        <h1 className='abonnement-titre'> Un abonnement à la hauteur de vos moyens</h1>
@@ -35,7 +35,7 @@ export default function Abonnement() {
                         <li>3 fois /semaine</li>
                         <li>Tel: 620 00 00 00</li>
                     </ul>
-                    <button type="button" className="btn btn-lg btn-block btn-success">Sign up for free</button>
+                    <button type="button" className="btn btn-lg btn-block btn-success">Souscrire</button>
                 </div>
             </div>
             <div className="bloc-2 card mb-4 shadow-sm d-inline-flex ms-5">
@@ -49,7 +49,7 @@ export default function Abonnement() {
                         <li>Jours ouvrables</li>
                         <li>Tel: 620 00 00 00</li>
                     </ul>
-                    <button type="button" className="btn btn-lg btn-block btn-success">Get started</button>
+                    <button type="button" className="btn btn-lg btn-block btn-success">Souscrire</button>
                 </div>
             </div>
             <div className="bloc-3 card mb-4 shadow-sm d-inline-flex ms-5">
@@ -63,7 +63,7 @@ export default function Abonnement() {
                         <li>Tous les jours</li>
                         <li>Tel: 620 00 00 00</li>
                     </ul>
-                    <button type="button" className="btn btn-lg btn-block btn-success">Contact us</button>
+                    <button type="button" className="btn btn-lg btn-block btn-success">Souscrire</button>
                 </div>
             </div>
         </div>
@@ -84,7 +84,7 @@ export default function Abonnement() {
                         <li>8h à 20h</li>
                         <li>Tel: 620 00 00 00</li>
                     </ul>
-                    <button type="button" className="btn btn-lg btn-block btn-success">Contact us</button>
+                    <button type="button" className="btn btn-lg btn-block btn-success">Souscrire</button>
                 </div>
          </div>
          <div className="bloc-5 card mb-4 shadow-sm d-inline-flex ms-5">
@@ -98,7 +98,7 @@ export default function Abonnement() {
                         <li>8h à 20h</li>
                         <li>Tel: 620 00 00 00</li>
                     </ul>
-                    <button type="button" className="btn btn-lg btn-block btn-success">Contact us</button>
+                    <button type="button" className="btn btn-lg btn-block btn-success">Souscrire</button>
                 </div>
          </div>
 
@@ -113,13 +113,14 @@ export default function Abonnement() {
                         <li>8h à 20h</li>
                         <li>Tel: 620 00 00 00</li>
                     </ul>
-                    <button type="button" className="btn btn-lg btn-block btn-success">Contact us</button>
+                    <button type="button" className="btn btn-lg btn-block btn-success">Souscrire</button>
                 </div>
          </div>
         </div>
         
     </div>
     </div>
+            <Footer/>
 
     </div>
    

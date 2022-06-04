@@ -9,7 +9,7 @@ import Header from './Header/Header';
 
 export default function Home() {
   return (
-    <div>
+    <div className='container-principal'>
       <Header/>
       <Filter/>
       <Info/>

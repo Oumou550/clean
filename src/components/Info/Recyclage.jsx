@@ -1,5 +1,5 @@
 import React from 'react'
-import agent from './agent-immobilier.jpg'
+import agent from './img-recy.png'
 
 export default function Recyclage() {
   return (

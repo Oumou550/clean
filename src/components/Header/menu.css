@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 .menu{
     /* color: white; */
     background-color: #FFFFFF;
@@ -11,6 +11,9 @@
     text-decoration: none;
     color: #1c8200;
     padding-left: 20px;
+    font-weight: 500;
+      font-size: 32px/34px;
+      font-family: 'Montserrat';
   }
   .nom{
     color: #FFFFFF;
@@ -21,10 +24,11 @@
   }
   .nom a{
     color: #165b04;
-    font-weight: bold;
+    font-weight: 900;
     margin-left: -12rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
+    font-style: normal;
+    font-size: 40px/45px;
+    font-family: 'Montserrat';
   }
   .nom img{
     width: 3rem;
@@ -33,6 +37,7 @@
  ul  .onglet{
       float: right;
       padding-right: 3rem;
+      
   }
   .menu a:hover{
       color: yellowgreen;

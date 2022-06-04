@@ -1,6 +1,5 @@
 import React from 'react'
-import Menu from '../Header/Menu'
-
+import Footer from '../Footer/Footer'
 import Modale from './Modale'
 
 
@@ -13,7 +12,6 @@ import PmeRecyclage from './PmeRecyclage'
 export default function Pme() {
   return (
     <div className="conteneur">
-      <Menu/>
       <div className='pme-header'>
             <h1>Des pme a votre disposition pour vos services en <span>nettoyage</span> et <span>recyclage</span></h1>
             <p>Choisissez La Pme Qui Vous Convient Et Abonnez Vous</p>
@@ -35,6 +33,7 @@ export default function Pme() {
         <PmeRecyclage/>
 
         <Modale/>
+        <Footer/>
        
     </div>
   )
