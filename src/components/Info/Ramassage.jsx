@@ -1,5 +1,6 @@
 import React from 'react'
 import agent from './img-ramassage.png'
+import './info.css'
 export default function Ramassage() {
   return (
     <section className="body-2">

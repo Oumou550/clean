@@ -7,13 +7,8 @@ export default function Abonnement() {
   return (
     <div className='abonnement-conteneur'>
         <hr />
-       
        <h1 className='abonnement-titre'> Un abonnement à la hauteur de vos moyens</h1>
-    
-      
       <div className='conteneur2-abonnement  d-inline-flex'>
-            
-      
     <div className="blocs-service">
         <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
             <h1 className="abonnement-tarif display-4">Prix des services</h1>

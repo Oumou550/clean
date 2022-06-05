@@ -5,7 +5,6 @@ import './modaleRecy.css'
 export default function ModaleRecy() {
   return (
     <div className='recy-conteneur'>
-  
         <h1 className='titre-recy'>Details pme</h1>
         <div className="sous-modale d-inline-flex">
             <div className='recy-image'>

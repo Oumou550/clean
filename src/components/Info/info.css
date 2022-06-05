@@ -3,27 +3,22 @@
 
 
 .body-1 {
-    display: inline-block;
-    width: 100%;
-    padding-left: 162px;
-    padding-top: 3rem;
-    /**/
-    /*margin-top: 30px;*/
-    /*background: #FFFFFF 0% 0% no-repeat padding-box;*/
+    display: flex;
     background: #F6F6F6;
     opacity: 1;
+    flex-direction: row;
   }
   .body-2 {
-    /* margin-top: 3rem; */
+    /* margin-top: 3rem;
     margin-left: 20rem;
     margin-right: 25rem;
-    width: 100%;
+    width: 100%; */
   }
    .body-3 {
-    margin-top: 3rem;
+    /* margin-top: 3rem;
     margin-left: 20rem;
     margin-right: 25rem;
-    width: 100%;
+    width: 100%; */
   }
   .article-1 h1{
     font-size: 36px;

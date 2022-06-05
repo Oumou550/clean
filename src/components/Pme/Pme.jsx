@@ -26,12 +26,9 @@ export default function Pme() {
       <input className='input-tri form-control' type='search'/>
       <button class="button-search btn btn-outline-success" type="submit">Search</button>
     </form>
-      </div>
-       
-       
+      </div> 
         <PmeRamassage/>
         <PmeRecyclage/>
-
         <Modale/>
         <Footer/>
        

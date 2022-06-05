@@ -24,13 +24,13 @@ export default function Articles() {
           </h2>
       </div>
         
-    <div className="contenu-1 d-inline-flex justify-content-center align-items-center">
+    <div className="contenu-1">
       <section className="contenu-1-article-1">
           <article>
               <img src={image1}/>
           </article>
           <aside>
-              <div className='article-info d-inline-flex'>
+              <div className='article-info'>
               <p className='article-nom'>Nous vous proposons ce seau de ménage en bec de <span className="article-kilo">12l</span> en échange de <span className="article-kilo">20Kg</span> de déchets plastiques</p>
               </div>
               {/* <div className='d-flex justify-content-between'> */}
@@ -42,7 +42,7 @@ export default function Articles() {
             <img src={image2} />
         </article>
         <aside>
-        <div className='article-info d-inline-flex'>
+        <div className='article-info'>
               <p className='article-nom'> Obtenez ces tasses qui vous serviront à la maison en échange de <span className="article-kilo">12Kg</span> de déchets plastiques</p>
               </div>
               <button className="choix-2" >Choisir</button>
@@ -53,7 +53,7 @@ export default function Articles() {
             <img src={image3} />
         </article>
         <aside>
-        <div className='article-info d-inline-flex'>
+        <div className='article-info'>
               <p className='article-nom'>Recevez ce lave linge africain pour toutes vos lessives en apportant <span className="article-kilo">40Kg</span> de déchets plastiques</p>
               </div>
               <button className="choix-3" >Choisir</button>
@@ -64,21 +64,19 @@ export default function Articles() {
           <img src={image4} />
       </article>
       <aside>
-      <div className='article-info d-inline-flex'>
+      <div className='article-info'>
               <p className='article-nom'> Une bassine d'eau pouvant contenir jusqu'à <span className="article-kilo">20l</span>. Obtenez-la en donnant <span className="article-kilo">60Kg</span> de déchets plastiques</p>
               </div>
               <button className="choix-4" >Choisir</button>
       </aside>
     </section>
-    
-    </div>
-    <div className="contenu-2 d-inline-flex">
-        <section className="contenu-2-article-1">
+
+    <section className="contenu-2-article-1">
             <article>
                 <img src={image5} />
             </article>
             <aside>
-            <div className='article-info d-inline-flex'>
+            <div className='article-info'>
               <p className='article-nom'>Vous pouvez obtenir ce tabouret pour vos enfants en apportant <span className="article-kilo">16Kg</span> de déchets plastiques</p>
               </div>
               <button className="choix-5" >Choisir</button>
@@ -100,7 +98,7 @@ export default function Articles() {
               <img src={image7} />
           </article>
           <aside>
-          <div className='article-info d-inline-flex'>
+          <div className='article-info'>
               <p className='article-nom'>En apportant <span className="article-kilo">10Kg</span> de déchets plastiques, recevez  en échange une bouilloire pour différents besoins</p>
               </div>
               <button className="choix-7" >Choisir</button>
@@ -111,20 +109,18 @@ export default function Articles() {
             <img src={image8} />
         </article>
         <aside>
-        <div className='article-info d-inline-flex'>
+        <div className='article-info'>
               <p className='article-nom'>Recevez ce seau de <span className="article-kilo">10l</span> pour toutes vos tâches ménagères en apportant <span className="article-kilo">18Kg</span> de déchets plastiques</p>
               </div>
               <button className="choix-8" >Choisir</button>
         </aside>
       </section>
-      </div>
-      <div className="contenu-3 d-inline-flex">
-        <section className="contenu-3-article-1">
+      <section className="contenu-3-article-1">
             <article>
                 <img src={image9} />
             </article>
             <aside>
-            <div className='article-info d-inline-flex'>
+            <div className='article-info'>
               <p className='article-nom'> Un seau de <span className="article-kilo">10l</span> pour vos differents travaux. Obtenez-la en donnant <span className="article-kilo">18Kg</span> de déchets plastiques</p>
               </div>
               <button className="choix-9" >Choisir</button>
@@ -135,7 +131,7 @@ export default function Articles() {
               <img src={image10} /> 
           </article>
           <aside>
-          <div className='article-info d-inline-flex'>
+          <div className='article-info'>
               <p className='article-nom'>Nous vous proposons ce gobelet pour vos différents besoins en échange de <span className="article-kilo">5Kg</span> de déchets plastiques</p>
               </div>
               <button className="choix-10" >Choisir</button>
@@ -146,7 +142,7 @@ export default function Articles() {
               <img src={image11} />
           </article>
           <aside>
-          <div className='article-info d-inline-flex'>
+          <div className='article-info'>
               <p className='article-nom'>Vous pouvez obtenir cette poubelle de <span className="article-kilo">15l</span> pour vos ordures en apportant <span className="article-kilo">28Kg</span> de déchets plastiques</p>
               </div>
               <button className="choix-11" >Choisir</button>
@@ -157,13 +153,13 @@ export default function Articles() {
             <img src={image12} />
         </article>
         <aside>
-        <div className='article-info d-inline-flex'>
+        <div className='article-info'>
               <p className='article-nom'> Obtenez une corbeille pour les papiers que vous n'utiliserez plus en échange de <span className="article-kilo">15Kg</span> de déchets plastiques</p>
               </div>
               <button className="choix-12" >Choisir</button>
         </aside>
       </section>
-      </div>
+    </div>
     </div>
   )
 }

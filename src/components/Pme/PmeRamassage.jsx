@@ -11,11 +11,11 @@ import image7 from './gestion-des-dechets.jpg'
 export default function PmeRamassage() {
   return (
     <div>
-    <div className="separateur-1 d-inline-flex">
+    <div className="separateur-1">
         <h1>Entreprises de ramassages</h1>
         <hr className=''/>
     </div>
-    <div className="contenu-1 d-inline-flex justify-content-center align-items-center">
+    <div className="contenu-1">
       <section className="contenu-1-pme-1">
           <article>
               <img src={image1}/>
@@ -80,10 +80,7 @@ export default function PmeRamassage() {
               <button className="">Plus de details</button>
       </aside>
     </section>
-    
-    </div>
-    <div className="contenu-2 d-inline-flex">
-        <section className="contenu-2-pme-1">
+    <section className="contenu-2-pme-1">
             <article>
                 <img src={image5} />
             </article>
@@ -135,7 +132,7 @@ export default function PmeRamassage() {
               <button className="">Plus de details</button>
         </aside>
       </section>
-      </div>
+    </div>
     </div>
   )
 }

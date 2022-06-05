@@ -4,7 +4,7 @@
     font-family: 'Montserrat';
 }
 .abonnement-conteneur hr{
-    width: 100%;
+    /* width: 100%; */
     color: #165b04;
     background-color: #165b04;border: 2px solid #165b04;
     height: 0.3rem;
@@ -12,19 +12,19 @@
 }
 
 .conteneur2-abonnement{
+    display: flex;
    align-items: center;
    justify-content: center;
-   padding-left: 22rem;
-   padding-right: 20rem;
+   margin: 0 auto;
 }
 .p1{
     padding-left: 1.5rem;
     width: 55rem;
 }
-.abonnement-titre{
+.abonnement-titre, .abonnement-tarif{
     text-transform: uppercase;
-    width: 42rem;
-    margin-left: 32rem;
+    /* width: 42rem; */
+    /* margin-left: 32rem; */
     font-weight: bold;
     text-align: center;
     align-items: center;
@@ -33,6 +33,7 @@
 }
 .blocs-service h4{
     font-weight: bold;
+    text-align: center;
 }
 .blocs-service ul {
     font-size: 1.1rem;
@@ -48,4 +49,5 @@
 }
 .bloc-1, .bloc-2, .bloc-3, .bloc-4, .bloc-5, .bloc-6{
     width: 15rem;
+    margin: 0 auto;
 }

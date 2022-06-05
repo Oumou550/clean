@@ -1,11 +1,12 @@
 .recy-conteneur{
     /* min-width: 50vh; */
-    width: 45%;
+    width: 55%;
     min-height: 50vh;
     background-color: #ffffff;
     margin-bottom: 5rem;
     margin-left: 3rem;
     margin-top: 2rem;
+    overflow: hidden;
 }
 .sous-modale{
     margin-top: 3rem;
