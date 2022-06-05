@@ -31,8 +31,9 @@ export default function Articles() {
           </article>
           <aside>
               <div className='article-info d-inline-flex'>
-              <p className='article-nom'>Nous vous proposons ce seau de ménage en bec de <span className="article-kilo">12l</span> en échange de<span className="article-kilo">20Kg</span> de déchets plastiques</p>
+              <p className='article-nom'>Nous vous proposons ce seau de ménage en bec de <span className="article-kilo">12l</span> en échange de <span className="article-kilo">20Kg</span> de déchets plastiques</p>
               </div>
+              {/* <div className='d-flex justify-content-between'> */}
               <button className="choix-1" >Choisir</button>
           </aside>
       </section>

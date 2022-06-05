@@ -1,4 +1,5 @@
 import React from 'react'
+import './Footer.css'
 import Images from './Images'
 import Texte from './Texte'
 

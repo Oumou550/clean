@@ -7,106 +7,26 @@
   box-sizing: border-box;
 } */
 
-
-/*footer*/
-footer{
-  background-color: #1c8200;
-  color: #FFFFFF;
-  height: 11rem;
-  /* margin-top: -1rem; */
-  
-}
-footer .p1{
-  color: #FFFFFF;
-  margin-left: 1.8rem;
-  padding-top: 1rem;
-  font-family: 'Montserrat';
-}
-footer .p2{
-  float: right;
-  padding-right: 4rem;
-  margin-top: 1rem;
-  font-family: 'Montserrat';
-}
-.texte{
-  display: inline-flex;
-  font-family: 'Montserrat';
-  
-}
-.para-1{
-  width: 17rem;
-  margin-right: 22rem;
-  padding-top: -11px;
-  margin-left: 1.8rem;
-  color: #fbfbfb;
-  font-size: 13px;
-}
-.para-2{
-  width: 8rem;
-  margin-top: 2rem;
-  justify-content: center;
-  font-size: 15px;
-}
-.images{
-  width: 30px;
-  display: inline-flex;
-
-  float: right;
-  padding-left: 15.3rem;
-  /* padding-right: 0px; */
-  margin-top: 3rem;
-  
-}
-
-.images img{
-  width: 30px;
-  border-radius: 52px/50px;
-  margin: 7px;
-}
-.numero{
-  font-family: 'Montserrat';
-  margin-left: 1.8rem;
-  margin-top: 0rem;
-}
-
-
-
-
-
-/* Correction*/
-body{
-  margin: 0;
-  box-sizing: border-box;
-  
-}
 header{
-  /* background-color: yellowgreen; */
   width: 100%;
-  /* display: flex;
-  flex-direction: column; */
   height: 100vh;
-  /* background-position: 0px 0px; */
-  /* background-repeat: no-repeat; */
   background-image: url(./components/Header/Groupe58.png);
   background-size: cover;
-  /*min-height: 100vh;*/
-  /* padding: 0.5rem; */
  
 }
-/* .cta__session{
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 20px;
+header h1{
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 900;
+  padding-top: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 72rem;
+  text-transform: uppercase;
+  font-size: 56px;
+  font-family: 'Montserrat';
+ opacity: 1;
 }
-.cta__session--button{
-  display: flex;
-  margin-top: -35rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
 
 
 header h1{
